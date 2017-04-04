@@ -1,0 +1,47 @@
+1. Pacifico
+
+2. Bebas
+
+3. HelveticaNeue Medium
+
+4. HelveticaNeue
+
+# a5a5a5
+# a0a0a0
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Bebas.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Bebas.TTF") /* TTF file for CSS3 browsers */
+}
+
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("HelveticaNeue_Medium.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("HelveticaNeue_Medium.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("HelveticaNeue.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("HelveticaNeue.ttf") /* TTF file for CSS3 browsers */
+}

@@ -1,0 +1,278 @@
+.body{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+ font-family: bebas;
+ src: url("Bebas.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: bebas;
+ src: url("Bebas.TTF") /* TTF file for CSS3 browsers */
+}
+
+
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: pacifico;
+ src: url("Pacifico.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: helneum;
+ src: url("HelveticaNeue_Medium.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: helneum;
+ src: url("HelveticaNeue_Medium.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: helneu;
+ src: url("HelveticaNeue.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: helneu;
+ src: url("HelveticaNeue.ttf") /* TTF file for CSS3 browsers */
+}
+
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	margin: 20px 0;
+	padding: 20px 0;
+	/*border: 2px solid red;*/
+	overflow: hidden;
+}
+
+.logo{
+	float: left;
+	width: 30%;
+	/*border: 2px solid red;*/
+	box-sizing: border-box;
+}
+.logo h1{
+	margin: 0;
+	font-family: pacifico;
+	font-size: 50px;
+}
+.menu{
+	float: right;
+	width: 70%;
+	box-sizing: border-box;
+	/*border: 2px solid blue;*/
+}
+
+.menu ul{
+	margin: 0;
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #a0a0a0;
+	font-family: bebas;
+	padding-top: 15px;
+	padding-left: 20px;
+
+}
+.menu ul li span{
+	display: block;
+	font-size: 20px;
+	color: black;
+}
+
+.slider_wrapper{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+
+.slider_text{
+	background-color: #404040;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	width: 23%;
+	padding: 10px 0;
+	padding-left: 10px;
+	font-family: bebas;
+}
+.slider_text h4{
+	color: #a5a5a5;
+}
+.slider_text h2{
+	color: white;
+}
+.slider_indicator{
+	position: absolute;
+	right: 470px;
+	bottom: 0;
+}
+.slider_button{
+	position: absolute;
+	right: 40px;
+	bottom: 10px;
+}
+.slider_background img{
+	width: 100%;
+}
+
+.slider_text h2,h4{
+	margin: 0;
+	padding: 0 5px;
+}
+.paragraph{
+	width: 100%;
+	background-color: #f5f5f5;
+}
+
+.paragraph h3,p{
+	margin: 0;
+	padding: 10px;
+}
+.paragraph h3{
+	font-family: bebas;
+	color: #474747;
+}
+.paragraph p{
+	font-family: helneum;
+	font-size: 15px;
+}
+.services_wrapper{
+	box-sizing: border-box;
+}
+.service{
+	width: 33%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 10px 20px;
+	overflow: hidden;
+	margin-top: 40px;
+}
+
+.s_icon{
+	float: left;
+	width: 30%;
+	margin-top: 10px;
+	padding: 0;
+}
+.s_title{
+	float: right;
+	width: 70%;
+}
+.s_title h3{
+	padding: 0;
+	margin: 0;
+	font-family: bebas;
+	color: #464646;
+}
+.s_description{
+	clear: both;
+}
+.s_description p{
+	padding: 0;
+	padding-top: 20px;
+	font-family: helneum;
+}
+.s_cta{
+	margin: 10px 0;
+}
+.s_cta span{
+	font-family: bebas;
+	font-size: 12px;
+	color: #5d5d5d;
+	padding-left: 5px;
+}
+.project_wrapper{
+	box-sizing: border-box;
+	/*border: 2px solid blue;*/
+}
+.project{
+	/*border: 2px solid red;*/
+	width: 25%;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.p_img{
+	width: 100%;
+}
+.p_description p{
+	padding: 10px 0;
+}
+.p_title{
+	font-family: bebas;
+	color: #414141;
+	padding: 10px 0;
+}
+.p_title h5{
+	margin: 0;
+}
+.p_cta{
+	margin: 10px 0;
+}
+.p_cta span{
+	font-family: bebas;
+	font-size: 12px;
+	color: #5d5d5d;
+	padding-left: 5px;
+}
+.footer_wrapper{
+	background-color: #ebe5e5;
+	padding: 0;
+	margin: 0;
+	margin-top: 55px;
+}
+.footer_wrapper img{
+	vertical-align: top;
+}
+.footer{
+	/*border: 2px solid red;*/
+	width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 20px 0;
+	font-family: helneum;
+}
+
+.copyright{
+	width: 70%;
+	float: left;
+	/*padding: 25px 0;*/
+}
+.developed{
+	width: 30%;
+	float: right;
+}
+
+.project_title{
+	position: relative;
+	/*border: 2px solid red;*/
+	margin: 40px 0;
+}
+.title_heading{
+	background-color: white;
+	/*border: 2px solid blue;*/
+	position: absolute;
+	left: 370px;
+	bottom: 0;
+}
+.title_heading h2{
+	margin: 0;
+	padding: 5px;
+	font-family: bebas;
+	color: #474747;
+}
